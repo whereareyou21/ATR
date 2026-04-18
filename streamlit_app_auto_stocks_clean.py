@@ -15,7 +15,7 @@ except Exception:
 
 
 st.set_page_config(
-    page_title="Quant ATR Lab Auto",
+    page_title="Расчет ATR",
     page_icon="◈",
     layout="wide",
     initial_sidebar_state="collapsed",
@@ -496,18 +496,7 @@ def darkify_axes(ax):
 st.markdown(
     """
     <div class="hero-wrap">
-        <span class="kicker">Quant ATR Lab</span>
-        <div class="hero-title">Автоматический выбор акций и готовые данные<br>для практической части диплома</div>
-        <div class="hero-sub">
-            Выбирай акцию из готового списка — данные подтягиваются автоматически.
-            Интерфейс оставлен только с актуальными сценариями: готовые акции и демо-данные.
-        </div>
-        <div class="hero-chip-row">
-            <span class="hero-chip">Авто-загрузка котировок</span>
-            <span class="hero-chip">Готовый список акций</span>
-            <span class="hero-chip">ATR / NATR</span>
-            <span class="hero-chip">Интерполяционный тригонометрический полином</span>
-        </div>
+        <div class="hero-title">Автоматический расчет ATR</div>
     </div>
     """,
     unsafe_allow_html=True,
